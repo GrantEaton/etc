@@ -1,4 +1,10 @@
 set nu
+execute pathogen#infect()
+filetype plugin indent on
+syntax on
+set clipboard=unnamed          " make copy and paste go to vim clipboard"
+set backspace=indent,eol,start " backspace over everything in insert mode
+filetype plugin on
 let mapleader = ','
 noremap <leader>ev :edit ~/.vimrc<cr>
 :command! -bar -bang Q quit<bang>   "map Q to quit also"
