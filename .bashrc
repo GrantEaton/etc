@@ -1,3 +1,7 @@
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
+export GOPATH=$HOME/golang
+export GOROOT=/usr/local/opt/go/libexec
+
 export EDITOR=vim
 export EDITOR="/usr/bin/vim"
 alias v='vim'
